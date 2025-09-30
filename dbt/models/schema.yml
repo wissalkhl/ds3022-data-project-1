@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: main
+    tables:
+      - name: trips_2024_clean
+      - name: vehicle_emissions
+
+models:
+  - name: trips_2024_transformed
+
