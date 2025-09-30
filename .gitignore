@@ -1,0 +1,26 @@
+# --- Data & DB artifacts ---
+*.parquet
+data/*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Keep the reference CSV
+!data/vehicle_emissions.csv
+
+# --- Logs ---
+*.log
+logs/
+
+# --- dbt build artifacts ---
+dbt/target/
+dbt/run/
+dbt/logs/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- OS/editor ---
+.DS_Store
+.vscode/
+
